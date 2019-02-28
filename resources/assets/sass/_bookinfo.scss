@@ -1,0 +1,35 @@
+#bookinfo_description, #bookinfo_categories {
+    font-weight:300;
+    // color: black;
+}
+
+#bookinfo_img {
+    padding-top: 5px;
+}
+
+.bookinfo_detail {
+    padding-left: 0;
+}
+
+.bookinfo_info {
+    color: black;
+    font-weight: 300;
+}
+
+.bookinfo_detail small {
+    font-size: 15px;
+}
+
+#add_to_cartBtn {
+    background-color: rgb(27,156,226);
+    color: white !important;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#bookinfo_price {
+    font-weight: bold;
+    color: red;
+}

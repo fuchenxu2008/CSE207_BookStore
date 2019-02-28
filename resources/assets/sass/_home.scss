@@ -1,0 +1,33 @@
+.orderList {
+    padding-left: 15px;
+    font-weight: 300;
+}
+.panel-body {
+    overflow: auto;
+}
+.manageOrderBtn {
+    border: 1px grey solid;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 2px 15px 2px 15px;
+}
+a:hover, a:visited, a:link, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.priceTag {
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(33,141,249);
+    border: 1px solid rgb(33,141,249);
+    color: white;
+    padding: 2px 15px 2px 15px;
+}
+.completed_order {
+    background-color: #00B34A;
+    border: 1px solid #00B34A;
+}
+.canceled_order {
+    background-color: grey;
+    border: 1px solid grey;
+}

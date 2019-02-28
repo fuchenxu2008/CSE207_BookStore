@@ -1,0 +1,120 @@
+h1 {
+    margin-top: 10px;
+}
+h4 {
+    margin-top: 0;
+}
+label {
+    margin-bottom: 0;
+}
+.vertical-middle {
+    display:flex;
+    align-items:center;
+}
+.bottom-bar {
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    box-shadow: 0px -3px 17px rgba(0,0,0,0.2);
+}
+.shrink {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.half-shrink {
+    padding-right: 10px;
+}
+.check {
+    opacity: 0.3;
+}
+.selected {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%,-50%);
+    display: none;
+    border-radius: 100%;
+    color: white;
+    background-color: #6CE679;
+    padding: 5px;
+}
+.imgcheck {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+#selectall, .checkthis {
+    display: none;
+}
+.light {
+  margin-right: 0px;
+  position: relative;
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-color: grey;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.light:after {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: #33d68b;
+  border-radius: 100%;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  content: "";
+}
+#selectall:checked ~ .light:after{
+    width: 100%;
+    height: 100%;
+}
+
+#selectall_text {
+    font-size: 17px;
+    font-weight: bold !important;
+}
+
+.quantityChanger {
+    background-color: #e3e4e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.removeBtn {
+    margin-top: 20px;
+    background-color: rgb(189,84,48);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: white;
+}
+
+#totalPrice {
+    color: red;
+    font-weight: bold;
+}
+#checkout {
+    background-color: rgb(51,177,124);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

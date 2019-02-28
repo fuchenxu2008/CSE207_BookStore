@@ -1,0 +1,43 @@
+
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+@import url('https://fonts.googleapis.com/css?family=Mada|Pacifico|Quicksand');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400|Roboto:100,300,400|Source+Sans+Pro:200,300,400');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap-select
+@import "./dependencies/bootstrap-select.min.css";
+
+@import "index";
+
+@import "bookinfo";
+
+@import "shoppingcart";
+
+@import "checkout";
+
+@import "home";
+
+@import "showOrder";
+
+@import "delivery";
+
+body {
+    font-weight: 400;
+}
+
+b, strong, label, h4 {
+    // font-family: 'Roboto', sans-serif;
+    font-weight: 400 !important;
+}
+
+input {
+    -webkit-appearance: none;
+}
